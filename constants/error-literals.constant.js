@@ -1,0 +1,13 @@
+const ERROR_LITERALS = {
+  BLOCKCHAIN: {
+    TEST: {
+      SUCCESS: "TEST SUCCESSFULLY!",
+      FAILURE: "TEST FAILED!"
+    },
+    BLOCK: {
+      SUCCESS: "BLOCK CREATED SUCCESSFULLY!",
+      FAILURE: "BLOCK NOT FOUND!"
+    }
+  }
+};
+module.exports = ERROR_LITERALS;
